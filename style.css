@@ -1,0 +1,409 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.boxlogo {
+  display: flex;
+  align-items: center;
+}
+
+.boxricerca {
+  display: flex;
+  align-items: center;
+}
+
+.boxutente {
+  display: flex;
+  align-items: center;
+}
+
+.immaginemenu {
+  width: 20px;
+  padding: 10px;
+  margin: 18px 18px 18px 18px;
+}
+
+.immaginemenu:hover {
+  background-color: rgb(242, 242, 242);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.immaginemenu:active {
+  background-color: #e2e2e2;
+}
+
+.immagineyoutube {
+  width: 120px;
+  cursor: pointer;
+}
+
+.barraricerca {
+  width: 400px;
+  height: 35px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: solid 1px rgb(189, 189, 189);
+  padding-left: 15px;
+  font-size: 15px;
+  outline: none;
+  box-shadow: inset 0px 0px 10px -3px #d1d1d1;
+}
+
+.barraricerca:focus {
+  border: solid 1px #0072ff;
+}
+
+.tastocerca {
+  background-color: #f8f8f8;
+  height: 35px;
+  width: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: solid 1px rgb(189, 189, 189);
+  border-left: none;
+  cursor: pointer;
+}
+
+.tastocerca:hover {
+  background-color: #ececec;
+}
+
+.tastocerca:active {
+  background-color: #e2e2e2;
+}
+
+.immaginecerca {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.tastomicrofono {
+  background-color: rgb(242, 242, 242);
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 60%;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tastomicrofono:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.tastomicrofono:active {
+  background-color: rgb(187, 187, 187);
+}
+
+.immaginemicrofono {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.aggiungivideo {
+  width: 37px;
+  height: 37px;
+  border: none;
+  background-color: unset;
+  margin: 8px;
+}
+
+.immagineaggvideo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.aggiungivideo:hover {
+  cursor: pointer;
+  background-color: rgb(207, 207, 207);
+  border-radius: 50%;
+}
+
+.aggiungivideo:active {
+  background-color: rgb(187, 187, 187);
+}
+
+.notifiche {
+  width: 37px;
+  height: 37px;
+  border: none;
+  background-color: unset;
+  margin: 8px;
+}
+
+.immaginenotifiche {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.notifiche:hover {
+  cursor: pointer;
+  background-color: rgb(207, 207, 207);
+  border-radius: 50%;
+}
+
+.notifiche:active {
+  background-color: rgb(187, 187, 187);
+}
+
+.immagineutente {
+  width: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 8px 38px 8px 8px;
+}
+
+.immagineutente:active {
+  outline: 1px solid gray;
+}
+
+.boxnav {
+  position: sticky;
+  top: 65px;
+  background-color: white;
+  display: flex;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.tagattivo {
+  background-color: black;
+  color: white;
+}
+
+nav a {
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tagattivo ~ a:hover {
+  transition: ease-in-out 0.3s;
+  background-color: rgb(207, 207, 207);
+}
+
+.boxaside {
+  position: sticky;
+  top: 65px;
+  width: 12%;
+  height: 93vh;
+  overflow: hidden;
+  float: left;
+}
+
+.boxaside:hover {
+  overflow-y: scroll;
+}
+
+aside {
+  margin-right: 15px;
+  margin-left: 13px;
+}
+
+.primasezioneas {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 15px;
+}
+
+.primasezioneas .home {
+  font-weight: bold;
+  background-color: rgb(242, 242, 242);
+}
+
+.primasezioneas a {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.primasezioneas a img {
+  height: 20px;
+  padding: 10px 30px 10px 10px;
+}
+
+.primasezioneas .home:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.primasezioneas a:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.primasezioneas a:active,
+.primasezioneas .home:active {
+  background-color: rgb(187, 187, 187);
+}
+
+.secondasezioneas {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.secondasezioneas .tu {
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.secondasezioneas .tuarrow {
+  height: 10px;
+}
+
+.secondasezioneas a {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.secondasezioneas a img {
+  height: 20px;
+  padding: 10px 30px 10px 10px;
+}
+
+.secondasezioneas a:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.secondasezioneas a:active {
+  background-color: rgb(187, 187, 187);
+}
+
+.titoloiscrizioni {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.terzasezioneas {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+
+.terzasezioneas a {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+.terzasezioneas a img {
+  height: 20px;
+  margin: 10px 30px 10px 10px;
+  border-radius: 50%;
+}
+
+.terzasezioneas a:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.terzasezioneas a:active {
+  background-color: rgb(187, 187, 187);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.filavideo {
+  display: flex;
+  gap: 20px;
+  margin: 30px;
+}
+
+.boxvideo {
+  background-color: black;
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 119px 6px white;
+  cursor: pointer;
+}
+
+.boxvideo:hover {
+  box-shadow: none;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.sezioneshorts {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  height: 40px;
+  margin: 30px;
+}
+
+.sezioneshorts img {
+  height: 100%;
+}
+
+.quit {
+  height: 40px;
+  margin: 30px;
+}
+
+.quit img {
+  height: 100%;
+}
+
+.quit:hover {
+  cursor: pointer;
+  background-color: rgb(207, 207, 207);
+  border-radius: 50%;
+}
+
+.quit:active {
+  background-color: rgb(187, 187, 187);
+}
