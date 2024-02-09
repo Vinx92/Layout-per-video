@@ -357,11 +357,28 @@ main {
   margin: 30px;
 }
 
+.boxboxvideo {
+  width: 360px;
+  height: 250px;
+}
+
+.boxboxvideo h3 {
+  margin: 10px 0px 5px 0px;
+  cursor: pointer;
+}
+
+.boxboxvideo p {
+  margin: 5px 0px 0px 0px;
+  font-size: 13px;
+  color: gray;
+  cursor: pointer;
+}
+
 .boxvideo {
   background-color: black;
-  width: 400px;
-  height: 200px;
-  border-radius: 5px;
+  width: 100%;
+  height: 180px;
+  border-radius: 15px;
   box-shadow: inset 0px 0px 119px 6px white;
   cursor: pointer;
 }
@@ -375,6 +392,7 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 40px;
+  margin: 30px;
 }
 
 .sezioneshorts {
@@ -382,7 +400,7 @@ main {
   gap: 15px;
   align-items: center;
   height: 40px;
-  margin: 30px;
+  margin: 0px 0px 0px 30px;
 }
 
 .sezioneshorts img {
@@ -391,7 +409,6 @@ main {
 
 .quit {
   height: 40px;
-  margin: 30px;
 }
 
 .quit img {
